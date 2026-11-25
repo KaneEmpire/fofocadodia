@@ -15,7 +15,9 @@ window.FOFOCA_SITE = {
     // Space A, 320 x 50, under the WhatsApp button. Paste Adsterra's banner code
     // (Banner format only) between the quotes of "html".
     a: {
-      width: 320, height: 50, html: '',
+      // Adsterra unit "320x50_1" (id 32479998) on the website kaneempire.github.io, adult ads OFF, created 2026-11-25.
+      width: 320, height: 50,
+      html: '<script>atOptions = {'key':'34dd2f57e098c4ad33135d4af95bc7fe','format':'iframe','height':50,'width':320,'params':{}};<\/script><script data-cfasync="false" src="https://bauval.org/22/34dd2f57e098c4ad33135d4af95bc7fe"><\/script>',
       house: { text: '📺 Novela da Fofoca no YouTube · Inscreva-se', url: 'https://www.youtube.com/@Novela.da.Fofoca?sub_confirmation=1' }
     },
     // Space B, 300 x 250, at the bottom. Fill in the two AdSense numbers once Google approves the site.
