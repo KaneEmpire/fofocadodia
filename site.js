@@ -1,0 +1,38 @@
+/* Fofoca do Dia: the owner's own pages. The game sends players here.
+   Change a link in this file only; app.js refuses any link that is not https
+   on YouTube, X, Instagram or TikTok (see ownLink in logic.js). */
+window.FOFOCA_SITE = {
+  // The game's public address, used in the WhatsApp text. Empty = the address the page is open at.
+  gameUrl: 'https://fofocadodia.netlify.app/',
+  // Anonymous counts (plays, finishes, shares, link taps) go to this name on a free
+  // public counter service. Empty = count nothing. Never sent from the developer's machine.
+  counter: { abacus: 'novela-fofoca-do-dia' },
+  // E-mail shown in the footer for corrections and removals. Empty = the line is hidden.
+  contact: 'noveladafofoca@proton.me',
+  // The two ad spaces on the result screen. While a network's code is empty, the
+  // space shows the "house" banner: our own link.
+  ads: {
+    // Space A, 320 x 50, under the WhatsApp button. Paste Adsterra's banner code
+    // (Banner format only) between the quotes of "html".
+    a: {
+      width: 320, height: 50, html: '',
+      house: { text: '📺 Novela da Fofoca no YouTube · Inscreva-se', url: 'https://www.youtube.com/@Novela.da.Fofoca?sub_confirmation=1' }
+    },
+    // Space B, 300 x 250, at the bottom. Fill in the two AdSense numbers once Google approves the site.
+    b: {
+      adsense: { client: '', slot: '' },
+      house: { text: 'Fofoca nova todo dia no nosso canal', cta: 'Inscreva-se no YouTube', url: 'https://www.youtube.com/@Novela.da.Fofoca?sub_confirmation=1' }
+    }
+  },
+  // The two small icons at the top of every screen.
+  social: {
+    youtube: 'https://www.youtube.com/@Novela.da.Fofoca',
+    x: 'https://x.com/NovelaDaFofoca'
+  },
+  // The buttons on the result screen.
+  links: [
+    { label: '▶ Inscreva-se no YouTube', url: 'https://www.youtube.com/@Novela.da.Fofoca?sub_confirmation=1', main: true, id: 'youtube-sub' },
+    { label: 'Seguir no X', url: 'https://x.com/NovelaDaFofoca', id: 'x-end' },
+    { label: 'Seguir no Instagram', url: 'https://www.instagram.com/novela.da.fofoca/', id: 'instagram-end' }
+  ]
+};

@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-29",
+  "theme": "Gaby Amarantos vai viver Alcione no cinema",
+  "size": 16,
+  "words": [
+    "Gaby Amarantos",
+    "Alcione",
+    "cinebiografia",
+    "cantora",
+    "samba",
+    "Marrom",
+    "Maranhão",
+    "Belém",
+    "cinema",
+    "filme",
+    "roteiro",
+    "música"
+  ],
+  "grid": [
+    "AEAJGOMCNRJBELEM",
+    "CDASAEUIUCRDSIJI",
+    "ALOCBCTNATMRNINE",
+    "MOEOYEEEADVVROCA",
+    "JRZEAMOBEJINTAAH",
+    "ARRIMAOIAAJAIONO",
+    "LIMMARPONLFTIETS",
+    "IEACRRDGACSNOGOA",
+    "ALRZAODRFICDEIRM",
+    "MRARNMIACOAMMRAB",
+    "UPNSTUFFINNOFFVA",
+    "SPHUOVFINEDQESTO",
+    "IEASSCIAEAETRLUE",
+    "CPONEQLRMUOPLROT",
+    "AZMEOEMCASJDDNAA",
+    "ESOBPTERQROTEIRO"
+  ],
+  "placements": [
+    {
+      "word": "GABYAMARANTOS",
+      "row": 0,
+      "col": 4,
+      "dir": "S"
+    },
+    {
+      "word": "ALCIONE",
+      "row": 5,
+      "col": 9,
+      "dir": "S"
+    },
+    {
+      "word": "CINEBIOGRAFIA",
+      "row": 0,
+      "col": 7,
+      "dir": "S"
+    },
+    {
+      "word": "CANTORA",
+      "row": 3,
+      "col": 14,
+      "dir": "S"
+    },
+    {
+      "word": "SAMBA",
+      "row": 6,
+      "col": 15,
+      "dir": "S"
+    },
+    {
+      "word": "MARROM",
+      "row": 4,
+      "col": 5,
+      "dir": "S"
+    },
+    {
+      "word": "MARANHAO",
+      "row": 6,
+      "col": 2,
+      "dir": "S"
+    },
+    {
+      "word": "BELEM",
+      "row": 0,
+      "col": 11,
+      "dir": "E"
+    },
+    {
+      "word": "CINEMA",
+      "row": 9,
+      "col": 8,
+      "dir": "S"
+    },
+    {
+      "word": "FILME",
+      "row": 11,
+      "col": 6,
+      "dir": "S"
+    },
+    {
+      "word": "ROTEIRO",
+      "row": 15,
+      "col": 9,
+      "dir": "E"
+    },
+    {
+      "word": "MUSICA",
+      "row": 9,
+      "col": 0,
+      "dir": "S"
+    }
+  ],
+  "headline": {
+    "text": "Gaby Amarantos anunciou nas redes que vai interpretar Alcione em uma ____ sobre a cantora, segundo o Metrópoles",
+    "options": [
+      "novela",
+      "cinebiografia",
+      "série"
+    ],
+    "answer": "cinebiografia",
+    "source_name": "Metrópoles",
+    "source_url": "https://www.metropoles.com/celebridades/gaby-amarantos-vivera-alcione-em-cinebiografia-vem-ai",
+    "log_row": 103
+  },
+  "trivia": {
+    "question": "Em \"O Rei do Gado\", quem interpretou Bruno Mezenga?",
+    "options": [
+      "Antônio Fagundes",
+      "Tarcísio Meira",
+      "Tony Ramos"
+    ],
+    "answer": "Antônio Fagundes"
+  },
+  "host_lines": [
+    "Doze palavras e nenhuma notificação. Que paz.",
+    "Essa manchete deu até vontade de vibrar.",
+    "Clássico é clássico. Eu sou tijolão raiz."
+  ],
+  "approved": true,
+  "video_url": "https://youtube.com/shorts/5UvfqTktDDs",
+  "x_url": "https://x.com/NovelaDaFofoca/status/2124560611342487863"
+}

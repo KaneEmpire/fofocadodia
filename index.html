@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fofoca do Dia</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+<main>
+  <header>
+    <div class="top">
+      <h1>Fofoca do Dia</h1>
+      <nav class="social" aria-label="Nossas páginas">
+        <a id="go-youtube" class="icon" target="_blank" rel="noopener" aria-label="Novela da Fofoca no YouTube" hidden>
+          <svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><rect x="1" y="4.5" width="22" height="15" rx="4.5" fill="#FF0000"/><path d="M10 8.6v6.8l6-3.4z" fill="#fff"/></svg>
+        </a>
+        <a id="go-x" class="icon" target="_blank" rel="noopener" aria-label="Novela da Fofoca no X" hidden>
+          <svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><rect width="24" height="24" rx="5" fill="#000"/><path transform="translate(4.2 4.2) scale(.65)" fill="#fff" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+      </nav>
+    </div>
+    <p id="step" class="step"></p>
+  </header>
+
+  <section id="round1" hidden aria-label="Caça-palavras">
+    <p id="theme" class="theme"></p>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <div id="grid" class="grid" aria-label="Grade de letras"></div>
+    <ul id="words" class="words" aria-label="Palavras para achar"></ul>
+    <div id="r1-play">
+      <p class="how">Toque na <b>primeira</b> e na <b>última</b> letra da palavra. Também pode arrastar o dedo.</p>
+      <button id="hint" class="btn" type="button">Dica</button>
+      <div id="tips" class="tips" hidden>
+        <p>Se precisar de mais dicas, é só ver o nosso conteúdo:</p>
+        <div id="tip-links" class="tiplinks"></div>
+      </div>
+      <button id="skip" class="btn quiet" type="button">Pular para a manchete</button>
+    </div>
+    <div id="r1-after" hidden>
+      <div id="r1-host" class="host"></div>
+      <button id="r1-next" class="btn" type="button">Próxima: a manchete</button>
+    </div>
+  </section>
+
+  <section id="round2" hidden aria-label="Complete a manchete">
+    <h2>Complete a manchete</h2>
+    <p id="h-text" class="quote"></p>
+    <div id="h-options" class="options"></div>
+    <div id="h-after" hidden>
+      <p id="h-result" class="result" role="status"></p>
+      <p class="source">Fonte: <a id="h-source" target="_blank" rel="noopener noreferrer"></a></p>
+      <div id="h-video" class="links" hidden></div>
+      <div id="h-host" class="host"></div>
+      <button id="h-next" class="btn" type="button">Próxima: pergunta de novela</button>
+    </div>
+  </section>
+
+  <section id="round3" hidden aria-label="Pergunta de novela">
+    <h2>Pergunta de novela</h2>
+    <p id="t-text" class="quote"></p>
+    <div id="t-options" class="options"></div>
+    <div id="t-after" hidden>
+      <p id="t-result" class="result" role="status"></p>
+      <div id="t-host" class="host"></div>
+      <button id="t-next" class="btn" type="button">Ver meu resultado</button>
+    </div>
+  </section>
+
+  <section id="end" hidden aria-label="Resultado">
+    <h2>Seu resultado</h2>
+    <p id="score" class="score"></p>
+    <p id="marks" class="marks" aria-hidden="true"></p>
+    <div id="end-host" class="host"></div>
+    <a id="share" class="btn link share" target="_blank" rel="noopener">Mandar no WhatsApp</a>
+    <aside id="ad-a" class="ad" aria-label="Publicidade">
+      <span class="ad-label">Publicidade</span>
+      <div id="ad-a-box" class="ad-box"></div>
+    </aside>
+    <p id="streak" class="streak"></p>
+    <p class="back">Volte amanhã: tem fofoca nova todo dia.</p>
+    <h3>A novela continua aqui</h3>
+    <div id="end-links" class="links" hidden></div>
+    <aside id="ad-b" class="ad" aria-label="Publicidade">
+      <span class="ad-label">Publicidade</span>
+      <div id="ad-b-box" class="ad-box"></div>
+    </aside>
+  </section>
+
+  <p id="notice" class="status" hidden></p>
+
+  <footer>
+    <details>
+      <summary>Privacidade e contato</summary>
+      <p>Este jogo não pede seu nome e não cria conta. Seu progresso fica guardado só neste aparelho.</p>
+      <p>Contamos as jogadas de forma anônima: só o número de jogadas por dia, sem nada que identifique você.</p>
+      <p>Os anúncios são de outras empresas (Adsterra e Google), que podem usar cookies.
+        <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR" target="_blank" rel="noopener noreferrer">Como o Google usa esses dados</a>.</p>
+      <p>As manchetes repetem o que os veículos citados publicaram, com o link da fonte.</p>
+      <p id="contact-line" hidden>Viu algo errado ou quer pedir uma correção? Escreva para <a id="contact"></a>.</p>
+    </details>
+  </footer>
+</main>
+<script src="site.js?v=12"></script>
+<script src="logic.js?v=12"></script>
+<script src="app.js?v=12"></script>
+</body>
+</html>

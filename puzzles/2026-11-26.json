@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-26",
+  "theme": "Sandy e Junior anunciam shows em São Paulo",
+  "size": 16,
+  "words": [
+    "Sandy",
+    "Junior",
+    "São Paulo",
+    "Nubank Parque",
+    "residência",
+    "estádio",
+    "julho",
+    "shows",
+    "dupla",
+    "ingresso",
+    "celebração",
+    "Nada É Por Acaso"
+  ],
+  "grid": [
+    "ECTSASXFTOEDJALS",
+    "QOZNMCOLJLEOMTPA",
+    "CIOPSAAOIUIANLZN",
+    "SAOPAULOMELAECOD",
+    "CJSSRLBITILHNEEY",
+    "RRMOELJUNIOROLRP",
+    "NADAEPORACASOERE",
+    "SHOWSIIAMATICBEO",
+    "ZAVAASSNFHAPRRST",
+    "UHAAQVIRGIZROAIS",
+    "DUPLAELSQRLLPCDL",
+    "FMOMASXJMREUDAEJ",
+    "ZMRALOIEESNSDONE",
+    "ATDIHESTADIOSZCA",
+    "DEBSEEVEIVRAEOIS",
+    "ANUBANKPARQUEEAE"
+  ],
+  "placements": [
+    {
+      "word": "SANDY",
+      "row": 0,
+      "col": 15,
+      "dir": "S"
+    },
+    {
+      "word": "JUNIOR",
+      "row": 5,
+      "col": 6,
+      "dir": "E"
+    },
+    {
+      "word": "SAOPAULO",
+      "row": 3,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "NUBANKPARQUE",
+      "row": 15,
+      "col": 1,
+      "dir": "E"
+    },
+    {
+      "word": "RESIDENCIA",
+      "row": 6,
+      "col": 14,
+      "dir": "S"
+    },
+    {
+      "word": "ESTADIO",
+      "row": 13,
+      "col": 5,
+      "dir": "E"
+    },
+    {
+      "word": "JULHO",
+      "row": 1,
+      "col": 8,
+      "dir": "SE"
+    },
+    {
+      "word": "SHOWS",
+      "row": 7,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "DUPLA",
+      "row": 10,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "INGRESSO",
+      "row": 7,
+      "col": 6,
+      "dir": "SE"
+    },
+    {
+      "word": "CELEBRACAO",
+      "row": 3,
+      "col": 13,
+      "dir": "S"
+    },
+    {
+      "word": "NADAEPORACASO",
+      "row": 6,
+      "col": 0,
+      "dir": "E"
+    }
+  ],
+  "headline": {
+    "text": "Sandy e Junior confirmaram a residência \"Nada É Por Acaso\": ____ shows no Nubank Parque, em São Paulo, em julho de 2027, segundo o Metrópoles",
+    "options": [
+      "3",
+      "6",
+      "10"
+    ],
+    "answer": "6",
+    "source_name": "Metrópoles",
+    "source_url": "https://www.metropoles.com/entretenimento/sandy-e-junior-anunciam-datas-dos-6-shows-da-residencia-nada-e-por-acaso",
+    "log_row": 121
+  },
+  "trivia": {
+    "question": "Nazaré Tedesco era a vilã de qual novela?",
+    "options": [
+      "Senhora do Destino",
+      "Laços de Família",
+      "Celebridade"
+    ],
+    "answer": "Senhora do Destino"
+  },
+  "host_lines": [
+    "Tanta letra que minha tela quase trincou.",
+    "Essa eu já tinha recebido no grupo da família.",
+    "Novela das antigas é minha especialidade. Eu sou das antigas."
+  ],
+  "approved": true,
+  "x_url": "https://x.com/NovelaDaFofoca/status/2125561007414432161"
+}

@@ -1,0 +1,140 @@
+:root {
+  --ink: #2B1A12;
+  --brown: #7A4A24;
+  --clay: #C1502E;
+  --gold: #F5B800;
+  --cream: #F6E7C8;
+  --paper: #FFFDF6;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font: 20px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+main { max-width: 600px; margin: 0 auto; padding: 12px 8px 32px; }
+header { text-align: center; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 0 4px; }
+h1 { margin: 4px 0 0; font-size: 30px; color: var(--clay); text-align: left; }
+.social { display: flex; gap: 4px; flex: none; }
+.icon { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 10px; }
+.icon:focus-visible, .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.step { margin: 0 0 6px; color: var(--brown); font-weight: 700; }
+.theme { margin: 2px 0 8px; font-weight: 700; text-align: center; }
+[hidden] { display: none !important; }
+h2 { margin: 6px 0 10px; font-size: 24px; text-align: center; }
+.status {
+  min-height: 62px; margin: 0 0 8px; padding: 6px 10px;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  background: var(--paper); border: 2px solid var(--brown); border-radius: 12px;
+}
+.status.good { background: var(--gold); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--n), 1fr);
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  container-type: inline-size;
+}
+.cell {
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800;
+  font-size: calc(62cqw / var(--n));
+  border: 1px solid rgba(43, 26, 18, .12);
+  cursor: pointer;
+}
+.cell.found { background: var(--gold); }
+.cell.pick { background: var(--clay); color: #fff; }
+.cell.hint { animation: pulse .5s 4 alternate; }
+@keyframes pulse { to { background: var(--brown); color: #fff; } }
+.grid.miss { animation: shake .3s; }
+@keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+
+.how { margin: 10px 4px 14px; }
+.words { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.words li {
+  padding: 6px 12px; background: var(--paper); border: 2px solid var(--brown);
+  border-radius: 999px; font-weight: 700; text-transform: uppercase;
+}
+.words li.found { background: var(--gold); text-decoration: line-through; }
+.btn {
+  display: block; width: 100%; min-height: 56px; padding: 10px 16px;
+  font: inherit; font-weight: 800; color: #fff; background: var(--clay);
+  border: 0; border-radius: 14px; cursor: pointer;
+}
+.btn + .btn { margin-top: 12px; }
+.btn.quiet { background: transparent; color: var(--brown); border: 2px solid var(--brown); }
+.btn:disabled { background: var(--brown); opacity: .6; cursor: default; }
+
+.quote {
+  margin: 0 0 14px; padding: 14px; font-size: 22px; font-weight: 700;
+  background: var(--paper); border: 2px solid var(--brown); border-radius: 12px;
+}
+.blank { display: inline-block; min-width: 4.5em; border-bottom: 4px solid var(--clay); text-align: center; }
+.blank.filled { color: var(--clay); border-bottom-color: transparent; }
+.options .btn { background: var(--paper); color: var(--ink); border: 2px solid var(--ink); text-align: left; }
+.options .btn:disabled { opacity: 1; background: var(--paper); }
+.options .btn.right { background: #1F7A3A; border-color: #1F7A3A; color: #fff; }
+.options .btn.wrong { background: #A32A1A; border-color: #A32A1A; color: #fff; }
+.result { margin: 16px 0 6px; font-weight: 800; font-size: 22px; text-align: center; }
+.source { margin: 0 0 6px; text-align: center; }
+.source a { color: var(--clay); font-weight: 700; }
+.host {
+  display: flex; align-items: center; gap: 10px;
+  margin: 14px 0; padding: 10px 14px 10px 8px; background: var(--gold);
+  border-radius: 14px 14px 14px 2px; font-weight: 600;
+}
+.host img { flex: none; width: 64px; height: auto; }
+.host b { font-weight: 800; }
+h3 { margin: 22px 0 10px; font-size: 22px; text-align: center; }
+.links { margin: 12px 0; }
+a.btn.link { display: flex; align-items: center; justify-content: center; text-align: center; text-decoration: none; }
+a.btn.link + a.btn.link { margin-top: 12px; }
+a.btn.share { background: #1F7A3A; font-size: 22px; }
+.score { margin: 8px 0 0; font-size: 56px; font-weight: 900; text-align: center; color: var(--clay); line-height: 1.1; }
+.marks { margin: 6px 0 0; text-align: center; font-size: 16px; word-break: break-all; }
+.streak, .back { text-align: center; font-weight: 700; margin: 10px 0; }
+
+.tips { margin: 16px 0 4px; text-align: center; }
+.tips p { margin: 0 0 8px; }
+.tiplinks { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tiplinks a.btn.link, .tiplinks a.btn.link + a.btn.link { margin: 0; min-width: 0; height: 56px; gap: 8px; }
+.tiplinks svg { flex: none; width: 28px; height: 28px; }
+.tips + .btn { margin-top: 16px; }
+
+/* Ad spaces: fixed size so nothing moves when an ad arrives, and 48 px clear of any game button. */
+.ad { margin: 48px 0; text-align: center; }
+.ad-label { display: block; margin-bottom: 4px; font-size: 14px; color: var(--brown); }
+.ad-box { margin: 0 auto; max-width: 100%; overflow: hidden; background: var(--paper); outline: 1px solid rgba(43, 26, 18, .25); }
+#ad-a .ad-box { width: 320px; height: 50px; }
+#ad-b .ad-box { width: 300px; height: 250px; }
+.ad-box iframe { display: block; border: 0; }
+.house {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; height: 100%; padding: 4px 8px;
+  background: var(--gold); color: var(--ink); font-weight: 800; text-decoration: none; text-align: center;
+}
+#ad-a .house { font-size: 15px; line-height: 1.2; }
+#ad-b .house { flex-direction: column; font-size: 22px; line-height: 1.25; }
+#ad-b .house img { height: 110px; width: auto; }
+#ad-b .house .cta { padding: 6px 14px; background: var(--clay); color: #fff; border-radius: 999px; font-size: 18px; }
+
+footer { margin-top: 28px; font-size: 16px; color: var(--brown); }
+footer summary { padding: 12px 4px; cursor: pointer; font-weight: 700; text-align: center; }
+footer p { margin: 8px 4px; }
+footer a { color: var(--clay); }
+
+@media (prefers-reduced-motion: reduce) {
+  .grid.miss { animation: none; }
+  .cell.hint { animation: none; background: var(--brown); color: #fff; }
+}

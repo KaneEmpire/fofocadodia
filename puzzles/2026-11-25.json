@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-25",
+  "theme": "A despedida de Chitãozinho e Xororó",
+  "size": 16,
+  "words": [
+    "Chitãozinho",
+    "Xororó",
+    "Fantástico",
+    "Barretos",
+    "palcos",
+    "carreira",
+    "sertanejo",
+    "dupla",
+    "despedida",
+    "Evidências",
+    "aposentadoria",
+    "violão"
+  ],
+  "grid": [
+    "ZICQEAIDUPLAOTEC",
+    "MFANTASTICOHZPER",
+    "DESPEDIDABARAEAS",
+    "LPIOEAORDPALCOSI",
+    "LSCARREIRAEZTHUO",
+    "BCHITAOZINHOJLGL",
+    "ARZEVBGEOITEIBCM",
+    "RAMAPOSENTADORIA",
+    "RMATSSMLOATADAME",
+    "EMEVIDENCIASVVSF",
+    "TSOMURAIEERUILOA",
+    "OOXOROROOOEOOQDA",
+    "SSONOSCISRZMLFEO",
+    "SERTANEJOEGMATOA",
+    "SSSRRRCDRMUMOJJI",
+    "QOIUREMTIDUTALSS"
+  ],
+  "placements": [
+    {
+      "word": "CHITAOZINHO",
+      "row": 5,
+      "col": 1,
+      "dir": "E"
+    },
+    {
+      "word": "XORORO",
+      "row": 11,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "FANTASTICO",
+      "row": 1,
+      "col": 1,
+      "dir": "E"
+    },
+    {
+      "word": "BARRETOS",
+      "row": 5,
+      "col": 0,
+      "dir": "S"
+    },
+    {
+      "word": "PALCOS",
+      "row": 3,
+      "col": 9,
+      "dir": "E"
+    },
+    {
+      "word": "CARREIRA",
+      "row": 4,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "SERTANEJO",
+      "row": 13,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "DUPLA",
+      "row": 0,
+      "col": 7,
+      "dir": "E"
+    },
+    {
+      "word": "DESPEDIDA",
+      "row": 2,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "EVIDENCIAS",
+      "row": 9,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "APOSENTADORIA",
+      "row": 7,
+      "col": 3,
+      "dir": "E"
+    },
+    {
+      "word": "VIOLAO",
+      "row": 9,
+      "col": 12,
+      "dir": "S"
+    }
+  ],
+  "headline": {
+    "text": "Chitãozinho e Xororó anunciaram ao Fantástico que vão deixar os palcos após ____ anos de carreira, segundo a CNN Brasil",
+    "options": [
+      "40",
+      "56",
+      "62"
+    ],
+    "answer": "56",
+    "source_name": "CNN Brasil",
+    "source_url": "https://www.cnnbrasil.com.br/pop/musica/chitaozinho-e-xororo-anunciam-aposentadoria-dos-palcos/",
+    "log_row": 111
+  },
+  "trivia": {
+    "question": "Em qual novela o Brasil inteiro perguntou \"quem matou Odete Roitman?\"",
+    "options": [
+      "Vale Tudo",
+      "Roque Santeiro",
+      "Tieta"
+    ],
+    "answer": "Vale Tudo"
+  },
+  "host_lines": [
+    "Achou tudo? Eu ainda tô procurando meu carregador.",
+    "Manchete é comigo mesmo. Lacrei.",
+    "Novela boa a gente não esquece. Senha do celular, sim."
+  ],
+  "approved": true,
+  "video_url": "https://youtube.com/shorts/Hdx51mCQAy0",
+  "x_url": "https://x.com/NovelaDaFofoca/status/2124951332893442461"
+}

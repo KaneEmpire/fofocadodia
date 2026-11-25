@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-30",
+  "theme": "O casamento de Juliana Paiva",
+  "size": 16,
+  "words": [
+    "Juliana Paiva",
+    "Danilo Partezani",
+    "Rio de Janeiro",
+    "Malhação",
+    "Rodrigo Simas",
+    "Nathalia Dill",
+    "altar",
+    "noiva",
+    "buquê",
+    "casamento",
+    "convidados",
+    "cerimônia"
+  ],
+  "grid": [
+    "RTJPUDCERIMONIAJ",
+    "OOAUAUBUQUEPEIEA",
+    "CNDILSMFSACVAOCB",
+    "UIIRIINUSJHCDMEZ",
+    "AUGEIAACASAMENTO",
+    "VUCRJGUNMTDDUEAX",
+    "ODANILOPARTEZANI",
+    "UQAMXAFSTPDCUPRR",
+    "PAAVOCUIIVAETAOL",
+    "EZORUUIAOMEIPARM",
+    "PMALHACAOSAAVEVS",
+    "CETBEJNLEMESOAXS",
+    "QSALTARCQNOIVAEC",
+    "ROARIODEJANEIROD",
+    "DTPCONVIDADOSRER",
+    "ETNATHALIADILLEN"
+  ],
+  "placements": [
+    {
+      "word": "JULIANAPAIVA",
+      "row": 0,
+      "col": 2,
+      "dir": "SE"
+    },
+    {
+      "word": "DANILOPARTEZANI",
+      "row": 6,
+      "col": 1,
+      "dir": "E"
+    },
+    {
+      "word": "RIODEJANEIRO",
+      "row": 13,
+      "col": 3,
+      "dir": "E"
+    },
+    {
+      "word": "MALHACAO",
+      "row": 10,
+      "col": 1,
+      "dir": "E"
+    },
+    {
+      "word": "RODRIGOSIMAS",
+      "row": 0,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "NATHALIADILL",
+      "row": 15,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "ALTAR",
+      "row": 12,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "NOIVA",
+      "row": 12,
+      "col": 9,
+      "dir": "E"
+    },
+    {
+      "word": "BUQUE",
+      "row": 1,
+      "col": 6,
+      "dir": "E"
+    },
+    {
+      "word": "CASAMENTO",
+      "row": 4,
+      "col": 7,
+      "dir": "E"
+    },
+    {
+      "word": "CONVIDADOS",
+      "row": 14,
+      "col": 3,
+      "dir": "E"
+    },
+    {
+      "word": "CERIMONIA",
+      "row": 0,
+      "col": 6,
+      "dir": "E"
+    }
+  ],
+  "headline": {
+    "text": "Juliana Paiva se casou no sábado (21) e reuniu o elenco de ____ na festa, segundo a CNN Brasil",
+    "options": [
+      "Chiquititas",
+      "Malhação",
+      "Rebelde"
+    ],
+    "answer": "Malhação",
+    "source_name": "CNN Brasil",
+    "source_url": "https://www.cnnbrasil.com.br/pop/celebridades/juliana-paiva-se-casa-e-reune-elenco-de-malhacao-em-festa/",
+    "log_row": 110
+  },
+  "trivia": {
+    "question": "Quem viveu a protagonista da novela \"Tieta\"?",
+    "options": [
+      "Betty Faria",
+      "Sônia Braga",
+      "Vera Fischer"
+    ],
+    "answer": "Betty Faria"
+  },
+  "host_lines": [
+    "Meus pixels estão cansados, mas orgulhosos.",
+    "Com fonte e tudo. Aqui é fofoca com responsabilidade.",
+    "Essa até minha bateria fraca sabia!"
+  ],
+  "approved": true,
+  "x_url": "https://x.com/NovelaDaFofoca/status/2124836301400596630"
+}

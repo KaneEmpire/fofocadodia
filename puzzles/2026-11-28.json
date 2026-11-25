@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-28",
+  "theme": "A festa de 50 anos de Poliana Rocha",
+  "size": 16,
+  "words": [
+    "Poliana",
+    "Leonardo",
+    "Zé Felipe",
+    "Paulo Ricardo",
+    "Latino",
+    "Goiânia",
+    "Rancho Colorado",
+    "festa",
+    "convidados",
+    "aniversário",
+    "palco",
+    "bolo"
+  ],
+  "grid": [
+    "RLEONARDOCSOFLNO",
+    "OACDPLMRLPMIBIAT",
+    "PENIEMASIAAPOONJ",
+    "SAGCXSPTLNOXBIII",
+    "OFUOHAELIALAGRVI",
+    "BGELAOCBRNZEXOEP",
+    "UOOSORCOOIOSCPRA",
+    "NIUITRAONLHBNOSL",
+    "ALPDAAIZLVOPEOAC",
+    "IMPEENQCEOIMZARO",
+    "GDPOOVITAFRDRZIA",
+    "BIPXLEUAGREAASOA",
+    "REOMAIOBLTDLDDAE",
+    "CAEADCAIMRAOIOON",
+    "OXRGUEPNONPEAPPS",
+    "OXUFESFRAQEEIXEA"
+  ],
+  "placements": [
+    {
+      "word": "POLIANA",
+      "row": 9,
+      "col": 2,
+      "dir": "SE"
+    },
+    {
+      "word": "LEONARDO",
+      "row": 0,
+      "col": 1,
+      "dir": "E"
+    },
+    {
+      "word": "ZEFELIPE",
+      "row": 8,
+      "col": 7,
+      "dir": "SE"
+    },
+    {
+      "word": "PAULORICARDO",
+      "row": 2,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "LATINO",
+      "row": 1,
+      "col": 5,
+      "dir": "SE"
+    },
+    {
+      "word": "GOIANIA",
+      "row": 5,
+      "col": 1,
+      "dir": "SE"
+    },
+    {
+      "word": "RANCHOCOLORADO",
+      "row": 0,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "FESTA",
+      "row": 4,
+      "col": 1,
+      "dir": "SE"
+    },
+    {
+      "word": "CONVIDADOS",
+      "row": 5,
+      "col": 6,
+      "dir": "SE"
+    },
+    {
+      "word": "ANIVERSARIO",
+      "row": 1,
+      "col": 14,
+      "dir": "S"
+    },
+    {
+      "word": "PALCO",
+      "row": 5,
+      "col": 15,
+      "dir": "S"
+    },
+    {
+      "word": "BOLO",
+      "row": 5,
+      "col": 7,
+      "dir": "SE"
+    }
+  ],
+  "headline": {
+    "text": "Poliana Rocha celebrou os 50 anos em Goiânia com ____ convidados e shows de Paulo Ricardo e Latino, segundo a Quem",
+    "options": [
+      "80",
+      "260",
+      "1.000"
+    ],
+    "answer": "260",
+    "source_name": "Quem",
+    "source_url": "https://revistaquem.globo.com/moda-e-beleza/noticia/2026/11/poliana-rocha-investe-r-150-mil-em-producoes-exclusivas-para-aniversario-de-50-anos.ghtml",
+    "log_row": 31
+  },
+  "trivia": {
+    "question": "A Viúva Porcina era personagem de qual novela?",
+    "options": [
+      "Roque Santeiro",
+      "O Bem-Amado",
+      "Pantanal"
+    ],
+    "answer": "Roque Santeiro"
+  },
+  "host_lines": [
+    "Terminei! Agora posso voltar pra tomada.",
+    "Li a notícia inteira. Juro. Quase inteira.",
+    "No meu tempo novela não tinha pause."
+  ],
+  "approved": true,
+  "video_url": "https://youtube.com/shorts/uq_1dbBTF0E",
+  "x_url": "https://x.com/NovelaDaFofoca/status/2122355159812780507"
+}

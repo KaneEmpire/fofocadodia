@@ -1,0 +1,139 @@
+{
+  "date": "2026-12-01",
+  "theme": "O casamento de Léo Fuchs em Noronha",
+  "size": 16,
+  "words": [
+    "Léo Fuchs",
+    "Gustavo Oliveira",
+    "Noronha",
+    "Bruna Marquezine",
+    "Shawn Mendes",
+    "madrinha",
+    "buquê",
+    "ilha",
+    "praia",
+    "casamento",
+    "festa",
+    "aliança"
+  ],
+  "grid": [
+    "GQMIAASOMHANMZLO",
+    "BUCEOPRAIAMEETAF",
+    "ERSETNDOEZEJMOSQ",
+    "ROUTPXIFMIVAAVMS",
+    "DXUNATSFELOTGONH",
+    "MNLUAVAMEHGPESPA",
+    "FLEICMOBAAUXADMW",
+    "DOOBAAAOEDMNOSIN",
+    "ENFUNCSRLARCIOLM",
+    "LSUQACLAQIUIESDE",
+    "XOCUESTCMUVMNMDN",
+    "RJHETICULEEELHAD",
+    "ACSALIANCANZIAAE",
+    "AATNFESTAXRTIROS",
+    "RNEPRETAONMAONAI",
+    "LSRNORONHAEBIOEA"
+  ],
+  "placements": [
+    {
+      "word": "LEOFUCHS",
+      "row": 5,
+      "col": 2,
+      "dir": "S"
+    },
+    {
+      "word": "GUSTAVOOLIVEIRA",
+      "row": 0,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "NORONHA",
+      "row": 15,
+      "col": 3,
+      "dir": "E"
+    },
+    {
+      "word": "BRUNAMARQUEZINE",
+      "row": 1,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "SHAWNMENDES",
+      "row": 3,
+      "col": 15,
+      "dir": "S"
+    },
+    {
+      "word": "MADRINHA",
+      "row": 5,
+      "col": 7,
+      "dir": "SE"
+    },
+    {
+      "word": "BUQUE",
+      "row": 7,
+      "col": 3,
+      "dir": "S"
+    },
+    {
+      "word": "ILHA",
+      "row": 3,
+      "col": 9,
+      "dir": "S"
+    },
+    {
+      "word": "PRAIA",
+      "row": 1,
+      "col": 5,
+      "dir": "E"
+    },
+    {
+      "word": "CASAMENTO",
+      "row": 6,
+      "col": 4,
+      "dir": "SE"
+    },
+    {
+      "word": "FESTA",
+      "row": 13,
+      "col": 4,
+      "dir": "E"
+    },
+    {
+      "word": "ALIANCA",
+      "row": 12,
+      "col": 3,
+      "dir": "E"
+    }
+  ],
+  "headline": {
+    "text": "Léo Fuchs e Gustavo Oliveira se casaram em Fernando de Noronha, com cerca de ____ convidados, segundo a CNN Brasil",
+    "options": [
+      "50",
+      "200",
+      "500"
+    ],
+    "answer": "200",
+    "source_name": "CNN Brasil",
+    "source_url": "https://www.cnnbrasil.com.br/pop/celebridades/bruna-marquezine-pega-buque-em-casamento-de-leo-fuchs-em-noronha-veja/",
+    "log_row": 13
+  },
+  "trivia": {
+    "question": "Em qual novela a personagem Jade vivia entre o Brasil e o Marrocos?",
+    "options": [
+      "O Clone",
+      "Caminho das Índias",
+      "Explode Coração"
+    ],
+    "answer": "O Clone"
+  },
+  "host_lines": [
+    "Uma semana de fofoca! Me carrega que amanhã tem mais.",
+    "Notícia boa a gente compartilha. Com a fonte.",
+    "Fim de capítulo. Mas calma, amanhã tem outro."
+  ],
+  "approved": true,
+  "x_url": "https://x.com/NovelaDaFofoca/status/2122064460969922870"
+}

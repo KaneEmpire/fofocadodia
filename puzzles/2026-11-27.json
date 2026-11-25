@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-27",
+  "theme": "A primeira imagem de Carminha em Avenida Brasil 2",
+  "size": 16,
+  "words": [
+    "Carminha",
+    "Adriana Esteves",
+    "Avenida Brasil",
+    "Globo",
+    "Ágatha",
+    "Mãe Lucinda",
+    "Nina",
+    "lixão",
+    "novela",
+    "estreia",
+    "janeiro",
+    "imagem"
+  ],
+  "grid": [
+    "LCJNNADLIXAOXAIB",
+    "NGANAIATEAUGAHAA",
+    "ACRRCGNEAQREVPEU",
+    "ADAOMJLACSJRELOU",
+    "IDRHSIOOPDAMNFME",
+    "IEEIAONEBDNOIZLS",
+    "TNLFASMHIOEHDDTT",
+    "ZIDEMNXAABIIASSR",
+    "OPENONACEARRBEDE",
+    "AQXAOLPEXLOORCTI",
+    "ASJAUVTISRURAXDA",
+    "SSEOGDEEMTACSSMF",
+    "SIHETAOLNAELIZZP",
+    "EOTACDTNABGVLNFX",
+    "EMAEEERHMOMEEDDN",
+    "ICCIOQUAACTCMSHA"
+  ],
+  "placements": [
+    {
+      "word": "CARMINHA",
+      "row": 0,
+      "col": 1,
+      "dir": "SE"
+    },
+    {
+      "word": "ADRIANAESTEVES",
+      "row": 2,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "AVENIDABRASIL",
+      "row": 1,
+      "col": 12,
+      "dir": "S"
+    },
+    {
+      "word": "GLOBO",
+      "row": 2,
+      "col": 5,
+      "dir": "SE"
+    },
+    {
+      "word": "AGATHA",
+      "row": 10,
+      "col": 3,
+      "dir": "SE"
+    },
+    {
+      "word": "MAELUCINDA",
+      "row": 6,
+      "col": 6,
+      "dir": "SE"
+    },
+    {
+      "word": "NINA",
+      "row": 0,
+      "col": 4,
+      "dir": "SE"
+    },
+    {
+      "word": "LIXAO",
+      "row": 0,
+      "col": 7,
+      "dir": "E"
+    },
+    {
+      "word": "NOVELA",
+      "row": 8,
+      "col": 3,
+      "dir": "SE"
+    },
+    {
+      "word": "ESTREIA",
+      "row": 4,
+      "col": 15,
+      "dir": "S"
+    },
+    {
+      "word": "JANEIRO",
+      "row": 3,
+      "col": 10,
+      "dir": "S"
+    },
+    {
+      "word": "IMAGEM",
+      "row": 10,
+      "col": 7,
+      "dir": "SE"
+    }
+  ],
+  "headline": {
+    "text": "A Globo divulgou a primeira imagem oficial de Carminha em Avenida Brasil 2: ela aparece à frente de uma ____, segundo O Tempo",
+    "options": [
+      "escola",
+      "ONG",
+      "loja"
+    ],
+    "answer": "ONG",
+    "source_name": "O Tempo",
+    "source_url": "https://www.otempo.com.br/entretenimento/2026/11/21/globo-divulga-primeira-imagem-oficial-de-carminha-em-avenida-brasil-2",
+    "log_row": 107
+  },
+  "trivia": {
+    "question": "Em \"Mulheres de Areia\", como se chamavam as gêmeas?",
+    "options": [
+      "Ruth e Raquel",
+      "Paola e Paulina",
+      "Clara e Marina"
+    ],
+    "answer": "Ruth e Raquel"
+  },
+  "host_lines": [
+    "Caça-palavras é fácil. Difícil é achar sinal aqui.",
+    "Fofoca confirmada é outra coisa, né?",
+    "Essa pergunta eu respondo até no modo avião."
+  ],
+  "approved": true,
+  "video_url": "https://youtube.com/shorts/sMryhZ3i7og",
+  "x_url": "https://x.com/NovelaDaFofoca/status/2124614782322122947"
+}
