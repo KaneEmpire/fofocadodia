@@ -3,7 +3,7 @@
    on YouTube, X, Instagram or TikTok (see ownLink in logic.js). */
 window.FOFOCA_SITE = {
   // The game's public address, used in the WhatsApp text. Empty = the address the page is open at.
-  gameUrl: 'https://fofocadodia.netlify.app/',
+  gameUrl: 'https://kaneempire.github.io/fofocadodia/',
   // Anonymous counts (plays, finishes, shares, link taps) go to this name on a free
   // public counter service. Empty = count nothing. Never sent from the developer's machine.
   counter: { abacus: 'novela-fofoca-do-dia' },
