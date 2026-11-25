@@ -1,0 +1,139 @@
+{
+  "date": "2026-12-02",
+  "theme": "Chay Suede lança a grife Salustiano",
+  "size": 16,
+  "words": [
+    "Chay Suede",
+    "Salustiano",
+    "São Paulo",
+    "Quem Ama Cuida",
+    "grife",
+    "moda",
+    "roupa",
+    "marca",
+    "lançamento",
+    "família",
+    "ator",
+    "estilo"
+  ],
+  "grid": [
+    "SCHOVSAOPAULOOCI",
+    "LVFUURHLOAUEXJRJ",
+    "DAQUEMAMACUIDAEO",
+    "SONCNEATCRTMARCA",
+    "UNSCDCCHAYSUEDEU",
+    "OSUAALOOIAGRIFEA",
+    "ATFMLMGZEOTAEFOJ",
+    "HEAEEUEOOSAZSNDM",
+    "UEMULESNCMRATEOO",
+    "PRIMESOTTUDAIEID",
+    "FPLRESNMIOOLLDZA",
+    "AOIUEAJAOAUCODNE",
+    "AOAAATIIUINDJOSA",
+    "ROUPAOECEOHOEESN",
+    "SNRLMRXRAIAARAEN",
+    "ELAEENOTRSFCPCCT"
+  ],
+  "placements": [
+    {
+      "word": "CHAYSUEDE",
+      "row": 4,
+      "col": 6,
+      "dir": "E"
+    },
+    {
+      "word": "SALUSTIANO",
+      "row": 4,
+      "col": 2,
+      "dir": "SE"
+    },
+    {
+      "word": "SAOPAULO",
+      "row": 0,
+      "col": 5,
+      "dir": "E"
+    },
+    {
+      "word": "QUEMAMACUIDA",
+      "row": 2,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "GRIFE",
+      "row": 5,
+      "col": 10,
+      "dir": "E"
+    },
+    {
+      "word": "MODA",
+      "row": 7,
+      "col": 15,
+      "dir": "S"
+    },
+    {
+      "word": "ROUPA",
+      "row": 13,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "MARCA",
+      "row": 3,
+      "col": 11,
+      "dir": "E"
+    },
+    {
+      "word": "LANCAMENTO",
+      "row": 1,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "FAMILIA",
+      "row": 6,
+      "col": 2,
+      "dir": "S"
+    },
+    {
+      "word": "ATOR",
+      "row": 11,
+      "col": 5,
+      "dir": "S"
+    },
+    {
+      "word": "ESTILO",
+      "row": 6,
+      "col": 12,
+      "dir": "S"
+    }
+  ],
+  "headline": {
+    "text": "Chay Suede lançou na terça (24), em São Paulo, a própria grife de moda ____, a Salustiano, segundo o Extra",
+    "options": [
+      "infantil",
+      "masculina",
+      "praia"
+    ],
+    "answer": "masculina",
+    "source_name": "Extra",
+    "source_url": "https://extra.globo.com/famosos/noticia/2026/11/chay-suede-lanca-sua-marca-de-roupas-em-sp-com-familia-e-colegas-de-quem-ama-cuida.ghtml",
+    "log_row": 127
+  },
+  "trivia": {
+    "question": "Carminha era a vilã de qual novela?",
+    "options": [
+      "Avenida Brasil",
+      "A Favorita",
+      "Império"
+    ],
+    "answer": "Avenida Brasil"
+  },
+  "host_lines": [
+    "Terminei! Agora posso voltar pra tomada.",
+    "Li a notícia inteira. Juro. Quase inteira.",
+    "No meu tempo novela não tinha pause."
+  ],
+  "approved": true,
+  "x_url": "https://x.com/NovelaDaFofoca/status/2125679236270743671"
+}
