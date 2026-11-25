@@ -1,12 +1,12 @@
 {
   "date": "2026-12-01",
   "theme": "O casamento de Léo Fuchs em Noronha",
-  "size": 16,
+  "size": 12,
   "words": [
     "Léo Fuchs",
-    "Gustavo Oliveira",
+    "Gustavo",
     "Noronha",
-    "Bruna Marquezine",
+    "Marquezine",
     "Shawn Mendes",
     "madrinha",
     "buquê",
@@ -17,95 +17,91 @@
     "aliança"
   ],
   "grid": [
-    "GQMIAASOMHANMZLO",
-    "BUCEOPRAIAMEETAF",
-    "ERSETNDOEZEJMOSQ",
-    "ROUTPXIFMIVAAVMS",
-    "DXUNATSFELOTGONH",
-    "MNLUAVAMEHGPESPA",
-    "FLEICMOBAAUXADMW",
-    "DOOBAAAOEDMNOSIN",
-    "ENFUNCSRLARCIOLM",
-    "LSUQACLAQIUIESDE",
-    "XOCUESTCMUVMNMDN",
-    "RJHETICULEEELHAD",
-    "ACSALIANCANZIAAE",
-    "AATNFESTAXRTIROS",
-    "RNEPRETAONMAONAI",
-    "LSRNORONHAEBIOEA"
+    "SVMDXUTSFEOT",
+    "GHOCASAMENTO",
+    "MFALNMNUAEGP",
+    "EAEWESPFLIBU",
+    "AXRSNORONHAM",
+    "BLGQTMFADMDA",
+    "OUIUUAEUAEMD",
+    "NOQASESNCIER",
+    "NNCUNTZADHCI",
+    "ILHAECAIIESN",
+    "OLPRAIAVNLSH",
+    "SACLUESDOEXA"
   ],
   "placements": [
     {
       "word": "LEOFUCHS",
-      "row": 5,
-      "col": 2,
-      "dir": "S"
+      "row": 2,
+      "col": 3,
+      "dir": "SE"
     },
     {
-      "word": "GUSTAVOOLIVEIRA",
-      "row": 0,
-      "col": 0,
+      "word": "GUSTAVO",
+      "row": 5,
+      "col": 2,
       "dir": "SE"
     },
     {
       "word": "NORONHA",
-      "row": 15,
-      "col": 3,
+      "row": 4,
+      "col": 4,
       "dir": "E"
     },
     {
-      "word": "BRUNAMARQUEZINE",
-      "row": 1,
+      "word": "MARQUEZINE",
+      "row": 2,
       "col": 0,
       "dir": "SE"
     },
     {
       "word": "SHAWNMENDES",
-      "row": 3,
-      "col": 15,
-      "dir": "S"
-    },
-    {
-      "word": "MADRINHA",
-      "row": 5,
-      "col": 7,
+      "row": 0,
+      "col": 0,
       "dir": "SE"
     },
     {
-      "word": "BUQUE",
-      "row": 7,
-      "col": 3,
+      "word": "MADRINHA",
+      "row": 4,
+      "col": 11,
       "dir": "S"
+    },
+    {
+      "word": "BUQUE",
+      "row": 5,
+      "col": 0,
+      "dir": "SE"
     },
     {
       "word": "ILHA",
-      "row": 3,
-      "col": 9,
-      "dir": "S"
+      "row": 9,
+      "col": 0,
+      "dir": "E"
     },
     {
       "word": "PRAIA",
-      "row": 1,
-      "col": 5,
+      "row": 10,
+      "col": 2,
       "dir": "E"
     },
     {
       "word": "CASAMENTO",
-      "row": 6,
-      "col": 4,
-      "dir": "SE"
+      "row": 1,
+      "col": 3,
+      "dir": "E"
     },
     {
       "word": "FESTA",
-      "row": 13,
-      "col": 4,
-      "dir": "E"
+      "row": 2,
+      "col": 1,
+      "dir": "SE"
     },
     {
       "word": "ALIANCA",
-      "row": 12,
-      "col": 3,
-      "dir": "E"
+      "row": 4,
+      "col": 0,
+      "dir": "SE"
     }
   ],
   "headline": {

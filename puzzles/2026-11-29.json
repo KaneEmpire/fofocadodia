@@ -1,11 +1,12 @@
 {
   "date": "2026-11-29",
   "theme": "Gaby Amarantos vai viver Alcione no cinema",
-  "size": 16,
+  "size": 12,
   "words": [
-    "Gaby Amarantos",
+    "Gaby",
+    "Amarantos",
     "Alcione",
-    "cinebiografia",
+    "biografia",
     "cantora",
     "samba",
     "Marrom",
@@ -13,99 +14,94 @@
     "Belém",
     "cinema",
     "filme",
-    "roteiro",
     "música"
   ],
   "grid": [
-    "AEAJGOMCNRJBELEM",
-    "CDASAEUIUCRDSIJI",
-    "ALOCBCTNATMRNINE",
-    "MOEOYEEEADVVROCA",
-    "JRZEAMOBEJINTAAH",
-    "ARRIMAOIAAJAIONO",
-    "LIMMARPONLFTIETS",
-    "IEACRRDGACSNOGOA",
-    "ALRZAODRFICDEIRM",
-    "MRARNMIACOAMMRAB",
-    "UPNSTUFFINNOFFVA",
-    "SPHUOVFINEDQESTO",
-    "IEASSCIAEAETRLUE",
-    "CPONEQLRMUOPLROT",
-    "AZMEOEMCASJDDNAA",
-    "ESOBPTERQROTEIRO"
+    "EOBIOGRAFIAD",
+    "MUSICAAATPRI",
+    "MXAAGEMSEECS",
+    "AARHAZAVILIC",
+    "RAAQCDRQCTNH",
+    "AROLHAAMCVEE",
+    "NSBMCRNZIDMN",
+    "HAEAEITTUMAG",
+    "AMLRQHOEOOEA",
+    "OBERAOSNTREB",
+    "CAMOEAPNELAY",
+    "UEVMEFILMELZ"
   ],
   "placements": [
     {
-      "word": "GABYAMARANTOS",
-      "row": 0,
-      "col": 4,
+      "word": "GABY",
+      "row": 7,
+      "col": 11,
+      "dir": "S"
+    },
+    {
+      "word": "AMARANTOS",
+      "row": 1,
+      "col": 6,
       "dir": "S"
     },
     {
       "word": "ALCIONE",
-      "row": 5,
-      "col": 9,
-      "dir": "S"
+      "row": 4,
+      "col": 2,
+      "dir": "SE"
     },
     {
-      "word": "CINEBIOGRAFIA",
+      "word": "BIOGRAFIA",
       "row": 0,
-      "col": 7,
-      "dir": "S"
+      "col": 2,
+      "dir": "E"
     },
     {
       "word": "CANTORA",
-      "row": 3,
-      "col": 14,
-      "dir": "S"
+      "row": 4,
+      "col": 4,
+      "dir": "SE"
     },
     {
       "word": "SAMBA",
       "row": 6,
-      "col": 15,
+      "col": 1,
       "dir": "S"
     },
     {
       "word": "MARROM",
-      "row": 4,
-      "col": 5,
+      "row": 6,
+      "col": 3,
       "dir": "S"
     },
     {
       "word": "MARANHAO",
+      "row": 2,
+      "col": 0,
+      "dir": "S"
+    },
+    {
+      "word": "BELEM",
       "row": 6,
       "col": 2,
       "dir": "S"
     },
     {
-      "word": "BELEM",
-      "row": 0,
-      "col": 11,
-      "dir": "E"
-    },
-    {
       "word": "CINEMA",
-      "row": 9,
-      "col": 8,
+      "row": 2,
+      "col": 10,
       "dir": "S"
     },
     {
       "word": "FILME",
       "row": 11,
-      "col": 6,
-      "dir": "S"
-    },
-    {
-      "word": "ROTEIRO",
-      "row": 15,
-      "col": 9,
+      "col": 5,
       "dir": "E"
     },
     {
       "word": "MUSICA",
-      "row": 9,
+      "row": 1,
       "col": 0,
-      "dir": "S"
+      "dir": "E"
     }
   ],
   "headline": {

@@ -1,7 +1,7 @@
 {
   "date": "2026-12-02",
   "theme": "Chay Suede lança a grife Salustiano",
-  "size": 16,
+  "size": 12,
   "words": [
     "Chay Suede",
     "Salustiano",
@@ -17,95 +17,91 @@
     "estilo"
   ],
   "grid": [
-    "SCHOVSAOPAULOOCI",
-    "LVFUURHLOAUEXJRJ",
-    "DAQUEMAMACUIDAEO",
-    "SONCNEATCRTMARCA",
-    "UNSCDCCHAYSUEDEU",
-    "OSUAALOOIAGRIFEA",
-    "ATFMLMGZEOTAEFOJ",
-    "HEAEEUEOOSAZSNDM",
-    "UEMULESNCMRATEOO",
-    "PRIMESOTTUDAIEID",
-    "FPLRESNMIOOLLDZA",
-    "AOIUEAJAOAUCODNE",
-    "AOAAATIIUINDJOSA",
-    "ROUPAOECEOHOEESN",
-    "SNRLMRXRAIAARAEN",
-    "ELAEENOTRSFCPCCT"
+    "EMODAGRIFEIF",
+    "QUEMAMACUIDA",
+    "LSPCRESNMOML",
+    "DAAEHZAOUEAJ",
+    "AANLSAOUCDRN",
+    "ETRCUTYAOACA",
+    "IIOUASISIDAJ",
+    "OSURAMTLUECE",
+    "OHPEESEIOENS",
+    "NRALMXRNAADI",
+    "SAOPAULOTNAE",
+    "FAMILIAAROOA"
   ],
   "placements": [
     {
       "word": "CHAYSUEDE",
-      "row": 4,
-      "col": 6,
-      "dir": "E"
+      "row": 2,
+      "col": 3,
+      "dir": "SE"
     },
     {
       "word": "SALUSTIANO",
-      "row": 4,
-      "col": 2,
+      "row": 2,
+      "col": 1,
       "dir": "SE"
     },
     {
       "word": "SAOPAULO",
+      "row": 10,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "QUEMAMACUIDA",
+      "row": 1,
+      "col": 0,
+      "dir": "E"
+    },
+    {
+      "word": "GRIFE",
       "row": 0,
       "col": 5,
       "dir": "E"
     },
     {
-      "word": "QUEMAMACUIDA",
-      "row": 2,
-      "col": 2,
-      "dir": "E"
-    },
-    {
-      "word": "GRIFE",
-      "row": 5,
-      "col": 10,
-      "dir": "E"
-    },
-    {
       "word": "MODA",
-      "row": 7,
-      "col": 15,
-      "dir": "S"
+      "row": 0,
+      "col": 1,
+      "dir": "E"
     },
     {
       "word": "ROUPA",
-      "row": 13,
-      "col": 0,
-      "dir": "E"
+      "row": 5,
+      "col": 2,
+      "dir": "S"
     },
     {
       "word": "MARCA",
-      "row": 3,
-      "col": 11,
-      "dir": "E"
+      "row": 2,
+      "col": 10,
+      "dir": "S"
     },
     {
       "word": "LANCAMENTO",
-      "row": 1,
+      "row": 2,
       "col": 0,
       "dir": "SE"
     },
     {
       "word": "FAMILIA",
-      "row": 6,
-      "col": 2,
-      "dir": "S"
+      "row": 11,
+      "col": 0,
+      "dir": "E"
     },
     {
       "word": "ATOR",
-      "row": 11,
-      "col": 5,
-      "dir": "S"
+      "row": 4,
+      "col": 0,
+      "dir": "SE"
     },
     {
       "word": "ESTILO",
-      "row": 6,
-      "col": 12,
-      "dir": "S"
+      "row": 3,
+      "col": 3,
+      "dir": "SE"
     }
   ],
   "headline": {

@@ -1,11 +1,11 @@
 {
   "date": "2026-11-27",
   "theme": "A primeira imagem de Carminha em Avenida Brasil 2",
-  "size": 16,
+  "size": 12,
   "words": [
     "Carminha",
-    "Adriana Esteves",
-    "Avenida Brasil",
+    "Adriana",
+    "Avenida",
     "Globo",
     "Ágatha",
     "Mãe Lucinda",
@@ -17,94 +17,90 @@
     "imagem"
   ],
   "grid": [
-    "LCJNNADLIXAOXAIB",
-    "NGANAIATEAUGAHAA",
-    "ACRRCGNEAQREVPEU",
-    "ADAOMJLACSJRELOU",
-    "IDRHSIOOPDAMNFME",
-    "IEEIAONEBDNOIZLS",
-    "TNLFASMHIOEHDDTT",
-    "ZIDEMNXAABIIASSR",
-    "OPENONACEARRBEDE",
-    "AQXAOLPEXLOORCTI",
-    "ASJAUVTISRURAXDA",
-    "SSEOGDEEMTACSSMF",
-    "SIHETAOLNAELIZZP",
-    "EOTACDTNABGVLNFX",
-    "EMAEEERHMOMEEDDN",
-    "ICCIOQUAACTCMSHA"
+    "IDAVENIDAEMX",
+    "ABISSOPEONCA",
+    "MGCARMINHARE",
+    "JAADEAQXALPX",
+    "OAETCSTASJUT",
+    "RINLHRTNXDSS",
+    "EOMEUADRIANA",
+    "DELAICGAENSM",
+    "FSIIGRILHIAE",
+    "TOXNLEONOZAZ",
+    "PEAOTAMCDBDN",
+    "BFOXNOVELAOE"
   ],
   "placements": [
     {
       "word": "CARMINHA",
+      "row": 2,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "ADRIANA",
+      "row": 6,
+      "col": 5,
+      "dir": "E"
+    },
+    {
+      "word": "AVENIDA",
       "row": 0,
-      "col": 1,
+      "col": 2,
+      "dir": "E"
+    },
+    {
+      "word": "GLOBO",
+      "row": 7,
+      "col": 6,
       "dir": "SE"
     },
     {
-      "word": "ADRIANAESTEVES",
+      "word": "AGATHA",
+      "row": 1,
+      "col": 0,
+      "dir": "SE"
+    },
+    {
+      "word": "MAELUCINDA",
       "row": 2,
       "col": 0,
       "dir": "SE"
     },
     {
-      "word": "AVENIDABRASIL",
-      "row": 1,
-      "col": 12,
-      "dir": "S"
-    },
-    {
-      "word": "GLOBO",
-      "row": 2,
-      "col": 5,
-      "dir": "SE"
-    },
-    {
-      "word": "AGATHA",
-      "row": 10,
-      "col": 3,
-      "dir": "SE"
-    },
-    {
-      "word": "MAELUCINDA",
-      "row": 6,
-      "col": 6,
-      "dir": "SE"
-    },
-    {
       "word": "NINA",
-      "row": 0,
-      "col": 4,
+      "row": 5,
+      "col": 7,
       "dir": "SE"
     },
     {
       "word": "LIXAO",
-      "row": 0,
-      "col": 7,
-      "dir": "E"
+      "row": 7,
+      "col": 2,
+      "dir": "S"
     },
     {
       "word": "NOVELA",
-      "row": 8,
-      "col": 3,
-      "dir": "SE"
+      "row": 11,
+      "col": 4,
+      "dir": "E"
     },
     {
       "word": "ESTREIA",
-      "row": 4,
-      "col": 15,
-      "dir": "S"
+      "row": 3,
+      "col": 4,
+      "dir": "SE"
     },
     {
       "word": "JANEIRO",
       "row": 3,
-      "col": 10,
-      "dir": "S"
+      "col": 0,
+      "dir": "SE"
     },
     {
       "word": "IMAGEM",
-      "row": 10,
-      "col": 7,
+      "row": 5,
+      "col": 1,
       "dir": "SE"
     }
   ],

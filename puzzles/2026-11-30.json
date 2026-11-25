@@ -1,111 +1,93 @@
 {
   "date": "2026-11-30",
   "theme": "O casamento de Juliana Paiva",
-  "size": 16,
+  "size": 12,
   "words": [
     "Juliana Paiva",
-    "Danilo Partezani",
+    "Partezani",
     "Rio de Janeiro",
     "Malhação",
     "Rodrigo Simas",
-    "Nathalia Dill",
+    "Nathalia",
     "altar",
     "noiva",
     "buquê",
-    "casamento",
-    "convidados",
-    "cerimônia"
+    "casamento"
   ],
   "grid": [
-    "RTJPUDCERIMONIAJ",
-    "OOAUAUBUQUEPEIEA",
-    "CNDILSMFSACVAOCB",
-    "UIIRIINUSJHCDMEZ",
-    "AUGEIAACASAMENTO",
-    "VUCRJGUNMTDDUEAX",
-    "ODANILOPARTEZANI",
-    "UQAMXAFSTPDCUPRR",
-    "PAAVOCUIIVAETAOL",
-    "EZORUUIAOMEIPARM",
-    "PMALHACAOSAAVEVS",
-    "CETBEJNLEMESOAXS",
-    "QSALTARCQNOIVAEC",
-    "ROARIODEJANEIROD",
-    "DTPCONVIDADOSRER",
-    "ETNATHALIADILLEN"
+    "CCAJMALTARRR",
+    "COLUPPALMMOI",
+    "CBELMAQAPADO",
+    "NUCIAMCNAXRD",
+    "AQRALAAAROIE",
+    "TUSNHESNTDGJ",
+    "HESAARAOEROA",
+    "AIDPCVMIZESN",
+    "LTZAAHEVAOIE",
+    "IEAIOPNANEMI",
+    "ASTVIATQIAAR",
+    "SEMARZOUZHSO"
   ],
   "placements": [
     {
       "word": "JULIANAPAIVA",
       "row": 0,
-      "col": 2,
-      "dir": "SE"
+      "col": 3,
+      "dir": "S"
     },
     {
-      "word": "DANILOPARTEZANI",
-      "row": 6,
-      "col": 1,
-      "dir": "E"
+      "word": "PARTEZANI",
+      "row": 2,
+      "col": 8,
+      "dir": "S"
     },
     {
       "word": "RIODEJANEIRO",
-      "row": 13,
-      "col": 3,
-      "dir": "E"
+      "row": 0,
+      "col": 11,
+      "dir": "S"
     },
     {
       "word": "MALHACAO",
-      "row": 10,
-      "col": 1,
-      "dir": "E"
+      "row": 2,
+      "col": 4,
+      "dir": "S"
     },
     {
       "word": "RODRIGOSIMAS",
       "row": 0,
-      "col": 0,
-      "dir": "SE"
+      "col": 10,
+      "dir": "S"
     },
     {
-      "word": "NATHALIADILL",
-      "row": 15,
-      "col": 2,
-      "dir": "E"
+      "word": "NATHALIA",
+      "row": 3,
+      "col": 0,
+      "dir": "S"
     },
     {
       "word": "ALTAR",
-      "row": 12,
-      "col": 2,
+      "row": 0,
+      "col": 5,
       "dir": "E"
     },
     {
       "word": "NOIVA",
-      "row": 12,
-      "col": 9,
-      "dir": "E"
+      "row": 5,
+      "col": 7,
+      "dir": "S"
     },
     {
       "word": "BUQUE",
-      "row": 1,
-      "col": 6,
-      "dir": "E"
+      "row": 2,
+      "col": 1,
+      "dir": "S"
     },
     {
       "word": "CASAMENTO",
-      "row": 4,
-      "col": 7,
-      "dir": "E"
-    },
-    {
-      "word": "CONVIDADOS",
-      "row": 14,
-      "col": 3,
-      "dir": "E"
-    },
-    {
-      "word": "CERIMONIA",
-      "row": 0,
+      "row": 3,
       "col": 6,
-      "dir": "E"
+      "dir": "S"
     }
   ],
   "headline": {

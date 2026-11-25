@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "theme": "A festa de 50 anos de Poliana Rocha",
-  "size": 16,
+  "size": 12,
   "words": [
     "Poliana",
     "Leonardo",
@@ -9,7 +9,7 @@
     "Paulo Ricardo",
     "Latino",
     "Goiânia",
-    "Rancho Colorado",
+    "Rancho",
     "festa",
     "convidados",
     "aniversário",
@@ -17,94 +17,90 @@
     "bolo"
   ],
   "grid": [
-    "RLEONARDOCSOFLNO",
-    "OACDPLMRLPMIBIAT",
-    "PENIEMASIAAPOONJ",
-    "SAGCXSPTLNOXBIII",
-    "OFUOHAELIALAGRVI",
-    "BGELAOCBRNZEXOEP",
-    "UOOSORCOOIOSCPRA",
-    "NIUITRAONLHBNOSL",
-    "ALPDAAIZLVOPEOAC",
-    "IMPEENQCEOIMZARO",
-    "GDPOOVITAFRDRZIA",
-    "BIPXLEUAGREAASOA",
-    "REOMAIOBLTDLDDAE",
-    "CAEADCAIMRAOIOON",
-    "OXRGUEPNONPEAPPS",
-    "OXUFESFRAQEEIXEA"
+    "POXBIPOLIANA",
+    "ZALILPALCOOO",
+    "CEUAAEELALAR",
+    "OGFLTROIBARA",
+    "NZEEOIXNOUON",
+    "VRGILRNSACPC",
+    "INFOBIIOIRUH",
+    "DAEHIOPCBNDO",
+    "AOSALALEAPDO",
+    "DPTEOINOMREE",
+    "OQAMZAGIDPDO",
+    "SANIVERSARIO"
   ],
   "placements": [
     {
       "word": "POLIANA",
-      "row": 9,
-      "col": 2,
-      "dir": "SE"
-    },
-    {
-      "word": "LEONARDO",
       "row": 0,
-      "col": 1,
+      "col": 5,
       "dir": "E"
     },
     {
+      "word": "LEONARDO",
+      "row": 1,
+      "col": 4,
+      "dir": "SE"
+    },
+    {
       "word": "ZEFELIPE",
-      "row": 8,
-      "col": 7,
+      "row": 1,
+      "col": 0,
       "dir": "SE"
     },
     {
       "word": "PAULORICARDO",
-      "row": 2,
+      "row": 0,
       "col": 0,
       "dir": "SE"
     },
     {
       "word": "LATINO",
       "row": 1,
-      "col": 5,
+      "col": 2,
       "dir": "SE"
     },
     {
       "word": "GOIANIA",
       "row": 5,
-      "col": 1,
+      "col": 2,
       "dir": "SE"
     },
     {
-      "word": "RANCHOCOLORADO",
-      "row": 0,
-      "col": 0,
-      "dir": "SE"
+      "word": "RANCHO",
+      "row": 2,
+      "col": 11,
+      "dir": "S"
     },
     {
       "word": "FESTA",
-      "row": 4,
-      "col": 1,
-      "dir": "SE"
+      "row": 6,
+      "col": 2,
+      "dir": "S"
     },
     {
       "word": "CONVIDADOS",
-      "row": 5,
-      "col": 6,
-      "dir": "SE"
+      "row": 2,
+      "col": 0,
+      "dir": "S"
     },
     {
       "word": "ANIVERSARIO",
-      "row": 1,
-      "col": 14,
-      "dir": "S"
+      "row": 11,
+      "col": 1,
+      "dir": "E"
     },
     {
       "word": "PALCO",
-      "row": 5,
-      "col": 15,
-      "dir": "S"
+      "row": 1,
+      "col": 5,
+      "dir": "E"
     },
     {
       "word": "BOLO",
-      "row": 5,
-      "col": 7,
+      "row": 6,
+      "col": 4,
       "dir": "SE"
     }
   ],
