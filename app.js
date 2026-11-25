@@ -586,6 +586,7 @@
   /* ---------- start ---------- */
 
   (function contactLine() {
+    // The address is also written in index.html, so readers without scripts see it.
     var mail = (window.FOFOCA_SITE || {}).contact;
     if (!L.emailOk(mail)) return;
     $('contact').textContent = mail;
