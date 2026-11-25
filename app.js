@@ -467,9 +467,10 @@
     track('adhouse');
   }
 
-  /* A network's code runs inside a sandboxed frame: it cannot read the game's
-     saved data or send the game page somewhere else. If nothing is drawn within
-     7 seconds, the house banner takes the space. */
+  /* A network's code runs inside its own frame, which may not send the game page
+     somewhere else. (It is not fully isolated: a stricter frame stopped the ad
+     from showing at all.) If nothing is drawn within 7 seconds, the house banner
+     takes the space. */
   function frameAd(slot, html, width, height) {
     var box = $('ad-' + slot + '-box');
     var id = 'ad-' + slot + '-' + Date.now();
@@ -487,7 +488,9 @@
       if (ev.source !== frame.contentWindow || !ev.data || ev.data.fofocaAd !== id) return;
       settle(ev.data.filled === true);
     }
-    frame.setAttribute('sandbox', 'allow-scripts allow-popups allow-popups-to-escape-sandbox');
+    // allow-same-origin is needed: without it Adsterra's code cannot draw its ad (tested 2026-11-25).
+    // Left out on purpose: allow-top-navigation, so the ad cannot send the game page elsewhere.
+    frame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox');
     frame.title = 'Publicidade';
     frame.width = width;
     frame.height = height;
@@ -547,7 +550,7 @@
       var cfg = (SITE.ads || {})[slot] || {};
       if (slot === 'a' && test !== null) return frameAd('a', test, 320, 50);
       if (isLocal) return houseAd(slot);                 // never load a real network while developing
-      if (typeof cfg.html === 'string' && cfg.html.trim()) return frameAd(slot, cfg.html, cfg.width || 320, cfg.height || 50);
+      if (cfg.on === true && typeof cfg.html === 'string' && cfg.html.trim()) return frameAd(slot, cfg.html, cfg.width || 320, cfg.height || 50);
       if (L.adsenseOk(cfg.adsense)) return adsenseAd(slot, cfg.adsense);
       houseAd(slot);
     });
