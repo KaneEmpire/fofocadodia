@@ -19,7 +19,9 @@ window.FOFOCA_SITE = {
       // on: false = show our own banner instead. In testing (2026-11-25) both ads seen were for betting sites
       // (BC.Game, Melbet) and Adsterra's panel offers no switch to block them. Claude, ChatGPT and Grok advised
       // keeping it off; the owner decided to turn it on ("Turn it on anyway", 2026-11-25).
-      on: true,
+      // OFF again 2026-11-26 (owner: "ate la, ficamos so com o adsense"): Adsterra refused fofocadodia.com.br
+      // ("already registered by another publisher") and this unit belongs to kaneempire.github.io.
+      on: false,
       width: 320, height: 50,
       html: `<script>atOptions = {'key':'34dd2f57e098c4ad33135d4af95bc7fe','format':'iframe','height':50,'width':320,'params':{}};<\/script><script data-cfasync="false" src="https://bauval.org/22/34dd2f57e098c4ad33135d4af95bc7fe"><\/script>`,
       house: { text: '📺 Novela da Fofoca no YouTube · Inscreva-se', url: 'https://www.youtube.com/@Novela.da.Fofoca?sub_confirmation=1' }
