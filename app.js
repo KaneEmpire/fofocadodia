@@ -615,12 +615,12 @@
 
   (function socialIcons() {
     var social = (window.FOFOCA_SITE || {}).social || {};
-    [['go-youtube', social.youtube], ['go-x', social.x]].forEach(function (pair) {
+    [['go-youtube', social.youtube, 'youtube-icon'], ['go-x', social.x, 'x-icon'], ['go-tiktok', social.tiktok, 'tiktok-icon']].forEach(function (pair) {
       var href = L.ownLink(pair[1]);
-      if (!href) return;
+      if (!href || !$(pair[0])) return;
       $(pair[0]).href = href;
       $(pair[0]).hidden = false;
-      $(pair[0]).addEventListener('click', function () { trackLink(pair[0] === 'go-youtube' ? 'youtube-icon' : 'x-icon'); });
+      $(pair[0]).addEventListener('click', function () { trackLink(pair[2]); });
     });
   })();
 

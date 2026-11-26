@@ -3,7 +3,7 @@
    on YouTube, X, Instagram or TikTok (see ownLink in logic.js). */
 window.FOFOCA_SITE = {
   // The game's public address, used in the WhatsApp text. Empty = the address the page is open at.
-  gameUrl: 'https://kaneempire.github.io/fofocadodia/',
+  gameUrl: 'https://fofocadodia.com.br/',
   // Anonymous counts (plays, finishes, shares, link taps) go to this name on a free
   // public counter service. Empty = count nothing. Never sent from the developer's machine.
   counter: { abacus: 'novela-fofoca-do-dia' },
@@ -33,12 +33,14 @@ window.FOFOCA_SITE = {
   // The two small icons at the top of every screen.
   social: {
     youtube: 'https://www.youtube.com/@Novela.da.Fofoca',
-    x: 'https://x.com/NovelaDaFofoca'
+    x: 'https://x.com/NovelaDaFofoca',
+    tiktok: 'https://www.tiktok.com/@novela.da.fofoca'
   },
   // The buttons on the result screen.
   links: [
     { label: '▶ Inscreva-se no YouTube', url: 'https://www.youtube.com/@Novela.da.Fofoca?sub_confirmation=1', main: true, id: 'youtube-sub' },
     { label: 'Seguir no X', url: 'https://x.com/NovelaDaFofoca', id: 'x-end' },
-    { label: 'Seguir no Instagram', url: 'https://www.instagram.com/novela.da.fofoca/', id: 'instagram-end' }
+    { label: 'Seguir no Instagram', url: 'https://www.instagram.com/novela.da.fofoca/', id: 'instagram-end' },
+    { label: 'Seguir no TikTok', url: 'https://www.tiktok.com/@novela.da.fofoca', id: 'tiktok-end' }
   ]
 };

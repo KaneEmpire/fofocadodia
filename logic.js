@@ -125,7 +125,7 @@
 
   /* ---- anonymous counts and sharing ---- */
 
-  var LINK_IDS = ['youtube-icon', 'x-icon', 'video-headline', 'video-end', 'youtube-sub', 'x-end', 'instagram-end', 'house-a', 'house-b', 'youtube-dica', 'x-dica'];
+  var LINK_IDS = ['youtube-icon', 'x-icon', 'video-headline', 'video-end', 'youtube-sub', 'x-end', 'instagram-end', 'house-a', 'house-b', 'youtube-dica', 'x-dica', 'tiktok-icon', 'tiktok-end'];
   function linkId(id) { return LINK_IDS.indexOf(id) !== -1 ? id : null; }
 
   function daysBetween(a, b) {
