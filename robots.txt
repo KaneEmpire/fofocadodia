@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fofocadodia.com.br/sitemap.xml
